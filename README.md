@@ -146,7 +146,7 @@ digitalWrite(ledPin, LOW); // set the LED off
 delay(1000);
 
 
-RESULTS:
+# RESULTS:
 Functioning of arduino uno and IDE is studied.
 
 
