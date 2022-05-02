@@ -1,15 +1,18 @@
 # Exp-01-INTRODUCTION-TO-ARDUINO-IDE
 
-INTRODUCTION TO ARDUINO & IDE
+# INTRODUCTION TO ARDUINO & IDE
 
 
-AIM: To familiarize the operation of Arduino uno and understand the operation of IDE 
-EQUIPMENT/ COMPONENTS REQUIRED:
+# AIM: To familiarize the operation of Arduino uno and understand the operation of IDE 
+
+# EQUIPMENT/ COMPONENTS REQUIRED:
 	Hardware: Arduino uno 
 	Software: Arduino IDE 
-THEORY:
+#THEORY:
+
 Arduino is an open source electronics prototyping platform composed of a microcontroller, a Programming language, and an IDE. Arduino is a tool for making interactive applications, designed to simplify this task for beginners.
-The first thing you need to do if you want to work with Arduino is to buy an Arduino board and a standard USB cable (A-to-B plug if you are using an Arduino Uno). Well, of course you will need more than this if you want to build any reasonable useful application, but for the moment you’ll just work with the bare essentials. Arduino runs on Windows, Mac OS X, and Linux, so there’s a version of Arduino for you whatever your OS. Go to the Arduino software web site at http://arduino.cc/en/Main/Software and download the version of the software compatible with your system. If after reading the following sections you are still having trouble with the installation, you can have more detailed information at http://arduino.cc/en/Guide/HomePage.
+The first thing you need to do if you want to work with Arduino is to buy an Arduino board and a standard USB cable (A-to-B plug if you are using an Arduino Uno). Well, of course you will need more than this if you want to build any reasonable useful application, but for the moment you’ll just work with the bare essentials. Arduino runs on Windows, Mac OS X, and Linux, so there’s a version of Arduino for you whatever your OS. 
+Go to the Arduino software web site at http://arduino.cc/en/Main/Software and download the version of the software compatible with your system. If after reading the following sections you are still having trouble with the installation, you can have more detailed information at http://arduino.cc/en/Guide/HomePage.
 
 You need to install the Arduino drivers before you can start working with your board. Assuming you are installing an Arduino Uno, follow these steps:
 . Plug your board to your computer, and wait for Windows to start the driver installation process. 
@@ -119,7 +122,7 @@ myInteger = 656;
 myLetter = 'A';
 test = true;
 }
-Variable Scope
+Variable Scope\n
 When you declare your variables, the place you do it within the code will have an impact on the scope in which the variable will be visible. If you declare your variable outside of any function, it will be considered a global variable and will be accessible from anywhere in the code. If you declare your variable within a function, the variable will be a local variable and will only be accessible from within the same function. Let’s do an example from the Blink sketch.
 int ledPin = 13;
 void setup() {
